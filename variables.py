@@ -104,5 +104,35 @@ b = c - b
 print(a,b)
 
 
+# transtypage
+foo = "123"
+foo = int(foo)
+print (type (foo))
 
+foo = "123"
+#str vers float
+foo = float(foo)
+print(type(foo))
 
+foo=1.2354
+# float verss int permet de supp tt ce qui sse trouve derriere la virgule
+print(foo)
+
+foo = int(foo)
+print (foo)
+
+foo = 3.14
+# float vers str
+foo = str (foo)
+print (type (foo))
+
+foo = 145.712
+# recupérer la partie entiere (c a d 2)
+a =  int(foo)
+print (a)
+# recupérer la partie flotante (c a d 0.71)
+
+b = foo - a
+print (b)
+
+print (0.2 + 0.1)
