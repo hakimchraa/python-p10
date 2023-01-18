@@ -1,0 +1,11 @@
+# Exercice 2: Un résultat surprenant!
+# On dispose d'une feuille de papier d'épaisseur 0,1 mm.
+# Combien de fois doit-on la plier au minimum pour que l'épaisseur dépasse la hauteur de la tour Eiffel 324 m.
+# Écrire un programme en Python pour résoudre ce problème. 
+
+tour_eiffel = 324
+# convertir en mm 
+tour_eiffel = 324 * 1000
+papier = 0.1
+nbredepli = tour_eiffel / papier
+print 

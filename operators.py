@@ -64,6 +64,24 @@ foo = 4 ** (1/2)
 foo = 8 ** (1/3)
 print(foo)
 
+my_number = 0
+if not (bool(my_number)): print ("le nombre est 0")
+else: print ("c'est pas un 0")
+
+print ("---------------------------------------------------")
+fruits = [0]
+result = 'ananas' in fruits
+print(result)
+
+result = bool(fruits)
+print (result)
+
+if fruits:
+    print ("la liste contient des elements")
+else: print ("y a pas de fruit")
 
 
+liste = ["ananas","pomme"]
+
+print ('ananas' in liste)
 
