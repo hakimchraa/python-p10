@@ -31,4 +31,3 @@ for item1  in my_list :
 #         str_max=item2 ;
 
 print (str_max);
-

@@ -19,4 +19,3 @@ for i in range(size):
     for j in range (size):
         if matrix[i][j] <= 50 :
             print(matrix[i][j])
-
